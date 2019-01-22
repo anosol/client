@@ -5,27 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".MainActivity">
-
+    tools:context=".Email">
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="wrap_content">
-<TextView
-    android:id="@+id/tvContact"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Contact"
-    android:textSize="20sp"
-    android:layout_marginLeft="20dp"
-    android:layout_marginStart="20dp"
-    />
-    <EditText
-        android:id="@+id/etContact"
-        android:layout_marginLeft="2dp"
-        android:layout_width="300dp"
-        android:layout_height="48dp"
-        />
+        <TextView
+            android:id="@+id/tvContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            />
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_marginLeft="2dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,19 +34,19 @@
             android:layout_marginStart="20dp"
             />
         <EditText
-            android:id="@+id/etMessage"
+            android:id="@+id/etMessageEmail"
             android:layout_marginLeft="2dp"
             android:layout_width="300dp"
             android:layout_height="48dp"
             />
     </LinearLayout>
     <Button
-        android:id="@+id/btSubmit"
+        android:id="@+id/btSubmit2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="sumbit"
         android:layout_marginTop="200dp"
         android:layout_centerInParent="true"
         />
-    
+
 </RelativeLayout>
